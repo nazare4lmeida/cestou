@@ -14,11 +14,11 @@ function ProgressBar({ step }) {
         { n: 3, label: "Resultado" },
       ].map(({ n, label }) => (
         <React.Fragment key={n}>
-          <div className={`prog-step ${step >= n ? "done" : ""} ${step === n ? "current" : ""}`}>
+          <div
+            className={`prog-step ${step >= n ? "done" : ""} ${step === n ? "current" : ""}`}
+          >
             <div className="prog-dot">
-              {step > n ? (
-                <IconCheck size={11} color="currentColor" />
-              ) : n}
+              {step > n ? <IconCheck size={11} color="currentColor" /> : n}
             </div>
             <span className="prog-label">{label}</span>
           </div>
@@ -42,9 +42,11 @@ export default function App() {
       <header className="app-header">
         <div className="header-inner">
           <div className="logo">
-            <span className="logo-icon"><IconCart size={26} color="#7C6A52" /></span>
+            <span className="logo-icon">
+              <IconCart size={26} color="#7C6A52" />
+            </span>
             <div>
-              <h1>Lista Certa</h1>
+              <h1>Cestou</h1>
               <p>Calculadora de compras inteligente</p>
             </div>
           </div>
@@ -95,7 +97,9 @@ export default function App() {
       </main>
 
       <footer className="app-footer">
-        <p>Os preços são estimativas e podem variar por região e supermercado.</p>
+        <p>
+          Os preços são estimativas e podem variar por região e supermercado.
+        </p>
       </footer>
     </div>
   );

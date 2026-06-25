@@ -1,7 +1,7 @@
 #!/bin/bash
-# Lista Certa — Script de inicialização
+# Cestou — Script de inicialização
 
-echo "🛒 Lista Certa — Iniciando..."
+echo "🛒 Cestou — Iniciando..."
 echo ""
 
 # Verificar Node.js

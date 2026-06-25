@@ -1,5 +1,5 @@
 @echo off
-echo 🛒 Lista Certa — Iniciando...
+echo 🛒 Cestou — Iniciando...
 echo.
 
 where node >nul 2>nul

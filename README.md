@@ -1,4 +1,4 @@
-# 🛒 Lista Certa — Calculadora de Compras
+# 🛒 Cestou — Calculadora de Compras
 
 Calculadora de lista de compras inteligente para o mercado brasileiro.
 
